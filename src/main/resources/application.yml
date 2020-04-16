@@ -1,0 +1,10 @@
+server:
+  port: 8012
+spring:
+  application:
+    name: service-client
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://39.101.205.35:8012/eureka/
